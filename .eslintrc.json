@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "plugin:jest/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["jest"],
+  "rules": {
+    "class-methods-use-this": "off",
+    "max-classes-per-file": "off",
+    "object-curly-newline": "off",
+    "no-await-in-loop": "off",
+    "max-len": "off"
+  }
+}
